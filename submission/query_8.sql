@@ -1,4 +1,4 @@
-INSERT INTO whiskersreneewe.daily_web_metrics
+INSERT INTO whiskersreneewe.host_activity_reduced
 WITH yesterday AS (
   SELECT * FROM whiskersreneewe.host_activity_reduced
   WHERE month_start = DATE('2023-08-01')
